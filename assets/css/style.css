@@ -40,11 +40,14 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+    /* background-color: #FF2276; */
+    background-color: #6596e6;
 }
 
 .clr-set {
-    color: #FF2276;
+    /* color: #FF2276; */
+    color: #6596e6;
+    /* background-color:#6596e6; */
 }
 
 .f-big {
@@ -93,8 +96,10 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #FF2276;
+    /* background-color: #FF2276; */
+    background-color:#6596e6;
     border-color: transparent;
+    /* color: ; */
 }
 /* ADDED PADDING IN NAVBAR */
 .navbar {
@@ -144,7 +149,9 @@ padding:0px;
         font-weight: 900;
         padding-top: 180px;
         padding-bottom: 35px;
-        color: #FF2276;
+        /* color: #FF2276;
+         */
+         color: #6596e6;
     }
 
 
@@ -165,7 +172,8 @@ padding:0px;
     #services i {
         font-size: 80px;
         padding: 30px;
-        color: #FF2276;
+        /* color: #FF2276; */
+        color: #6596e6;
     }
 
     #services h4 {
@@ -200,14 +208,17 @@ padding:0px;
 }
 
     .clients-carousel .thumbnail {
-        border: 1px solid #FF2276;
+        /* border: 1px solid #FF2276; */
+        /* #6596e6 */
+        border: 1px solid #6569e6;
     }
 
     .clients-carousel .carousel-control.left {
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        /* background: #FF2276; */
+        background:#6596e6;
         left: -15px;
     }
 
@@ -215,7 +226,8 @@ padding:0px;
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        /* background: #FF2276; */
+        background:#6569e6;
         right: -15px;
     }
 
@@ -234,8 +246,11 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #FF2276;
-    border: 2px solid #FF2276;
+    /* background-color: #FF2276;
+    border: 2px solid #FF2276; */
+
+    background-color: #6569e6;
+    border: 2px solid #6569e6;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -246,7 +261,8 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FF2276;
+    /* border: 2px solid #FF2276; */
+    border:2px solid #6596e6;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -293,12 +309,23 @@ padding:0px;
     margin-right: 40px;
     max-height: 150px;
     margin-bottom: 20px;
-    border: 2px solid #FF2276;
+    /* border: 2px solid #FF2276;
+     */
+     border: 2px solid #6596e6;
 }
 
     .media img:hover {
         opacity: 0.6;
     }
+
+    .flex-container>div{
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+    }
+    /* .btn btn-info{
+        padding: 10px;
+    } */
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */
